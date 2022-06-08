@@ -1,2 +1,8 @@
 # -Thy-algorithm-shalt-not-bear-false-witness-An-Evaluation-of-Multiclass-Debiasing-Methods-on-Word-
 This repository give the code to the paper "Thy algorithm shalt not bear false witness": An Evaluation of Multiclass Debiasing Methods on Word Embeddings' by Thalea Schlender and Gerasimos Spanakis. 
+
+Abstract: 
+With the vast development and employment of artificial intelligence applications, research into the fairness of these algorithms has been increased. Specifically, in the natural language processing domain, it has been shown that social biases persist in word embeddings and are thus in danger of amplifying these biases when used. As an example of social bias, religious biases are shown to persist in word embeddings and the need for its removal is highlighted. This paper investigates the state-of-the-art multiclass debiasing techniques: Hard debiasing, SoftWEAT debiasing and Conceptor debiasing. It evaluates their performance when removing religious bias on a common basis by quantifying bias removal via the Word Embedding Association Test (WEAT), Mean Average Cosine Similarity (MAC) and the Relative Negative Sentiment Bias (RNSB). By investigating the religious bias removal on three widely used word embeddings, namely: Word2Vec, GloVe, and ConceptNet, it is shown that the preferred method is ConceptorDebiasing. Specifically, this technique manages to decrease the measured religious bias on average by 82.42%, 96.78% and 54.76% for the three word embedding sets respectively.
+
+Please cite accordingly. 
+The code is organised into three jupyter notebooks. The word association data will be uploaded shortly.
